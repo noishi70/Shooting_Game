@@ -127,7 +127,7 @@ class Shot:
     def draw(self):
         pyxel.rect(self.pos.x, self.pos.y, self.w, self.h, SHOT_COLOR)
 
-
+#ビーム
 class Beam:
     def __init__(self, x, y):
         self.pos = Vec2(x, y)
