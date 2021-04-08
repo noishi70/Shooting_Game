@@ -138,7 +138,7 @@ class Beam:
 
         beam_list.append(self)
 
-    #設定したframecount秒間ビームを打ったら削除
+    #設定したframecount秒間ビームを打ったら消す
     def update(self, pos):
         self.pos.x = pos.x + 6
         self.pos.y = pos.y + 6
