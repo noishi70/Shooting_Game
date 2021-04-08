@@ -92,7 +92,7 @@ class Aircraft:
         self.pos.y = max(self.pos.y, 0)
         self.pos.y = min(self.pos.y, pyxel.height - self.h)
 
-        #スペースキーで弾を打つ
+        #スペースキーで弾をうつ
         if pyxel.btnp(pyxel.KEY_SPACE):
             Shot(self.pos.x + 4, self.pos.y + 6)  #砲台から出るように微調整
             pyxel.play(0, 0)
