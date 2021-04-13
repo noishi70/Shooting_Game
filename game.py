@@ -103,7 +103,7 @@ class Aircraft:
             pyxel.play(0, 0)
 
     def draw(self):
-        #機体の描画
+        #機体を描画
         pyxel.blt(self.pos.x, self.pos.y, 0, 0, 0, self.w, self.h, 0)
 
 
